@@ -1,0 +1,17 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+class Artikel extends Model
+{
+    protected $table='artikel';
+    protected $filtable=['nama','users_id','kategori_artikel_id'
+
+];
+
+
+    protected $casts=[
+
+    ];
+}
